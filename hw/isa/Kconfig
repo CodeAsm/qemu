@@ -4,6 +4,10 @@ config ISA_BUS
 config APM
     bool
 
+config PORT80
+    bool
+    default y
+
 config I82378
     bool
     select ISA_BUS
